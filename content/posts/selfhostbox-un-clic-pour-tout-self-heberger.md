@@ -3,7 +3,7 @@ title: "SelfHostBox : un clic pour tout auto-héberger"
 date: 2026-04-14
 draft: false
 tags: ["self-hosting", "docker", "devops", "projet"]
-summary: "Pourquoi j'ai créé SelfHostBox, une plateforme qui rend le self-hébergement accessible à tous en un clic."
+summary: "Pourquoi j'ai créé SelfHostBox, une plateforme qui rend l'auto-hébergement accessible à tous en un clic."
 ---
 
 ## Le constat
@@ -26,7 +26,15 @@ Le tout basé sur Docker et Traefik — des outils qu'on connaît, qu'on maîtri
 
 ## Ce que ça fait
 
-- **20+ apps** disponibles : Nextcloud, Vaultwarden, Jellyfin, Gitea, Pi-hole, Home Assistant, Paperless, et d'autres
+- **24 apps** disponibles, réparties en catégories :
+  - **Productivité** : Nextcloud, Vaultwarden, Outline, Joplin, Paperless-ngx
+  - **Média** : Plex, Jellyfin, Navidrome, Photoprism
+  - **Dev Tools** : Gitea, Jenkins, GitLab CE, Code-Server
+  - **Monitoring** : Portainer, Uptime Kuma, Netdata
+  - **Communication** : Matrix, Rocket.Chat, Mattermost
+  - **Finance** : Firefly III, Actual Budget
+  - **Réseau** : Pi-hole, AdGuard Home
+  - **IoT** : Home Assistant
 - **SSL automatique** via Let's Encrypt et Traefik
 - **Backups quotidiens** — local ou S3
 - **Mises à jour automatiques** (optionnel)
@@ -36,7 +44,7 @@ Le tout basé sur Docker et Traefik — des outils qu'on connaît, qu'on maîtri
 
 ## Pourquoi je l'ai construit
 
-Parce que j'en avais marre de refaire la même config à chaque fois. Parce que le self-hébergement devrait être aussi simple qu'installer une app sur son téléphone. Parce que l'indépendance numérique ne devrait pas être réservée à ceux qui savent écrire un docker-compose.
+Parce que j'en avais marre de refaire la même config à chaque fois. Parce que l'auto-hébergement devrait être aussi simple qu'installer une app sur son téléphone. Parce que l'indépendance numérique ne devrait pas être réservée à ceux qui savent écrire un docker-compose.
 
 Et honnêtement ? Parce que c'est un projet qui me permet de mettre en pratique tout ce que j'aime : Docker, automatisation, infra as code, et UX. Construire un outil qui rend un truc compliqué accessible, c'est ce qui me motive.
 
@@ -45,7 +53,7 @@ Et honnêtement ? Parce que c'est un projet qui me permet de mettre en pratique 
 - **Tu veux ton propre cloud** sans prendre 3 jours à configurer Nextcloud ? SelfHostBox.
 - **Tu veux un gestionnaire de mots de passe** sans payer 1Password ? Un clic.
 - **Tu veux du streaming** pour ta famille ? Jellyfin en 30 secondes.
-- **Tu es freelance** et tu setup des infras self-hébergées pour tes clients ? C'est fait pour ça aussi.
+- **Tu es freelance** et tu setup des infras auto-hébergées pour tes clients ? C'est fait pour ça aussi.
 
 ## La suite
 

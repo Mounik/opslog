@@ -1,5 +1,5 @@
 ---
-title: "SelfHostBox : un clic pour tout self-héberger"
+title: "SelfHostBox : un clic pour tout auto-héberger"
 date: 2026-04-14
 draft: false
 tags: ["self-hosting", "docker", "devops", "projet"]

@@ -1,0 +1,40 @@
+baseURL = 'https://mounik.github.io/opslog/'
+languageCode = 'fr-fr'
+defaultContentLanguage = 'fr'
+title = 'OpsLog'
+theme = 'papermod'
+
+[params]
+  description = "DevOps au quotidien — infra, pipelines, et stories de terminal"
+  author = 'Mounik'
+  defaultTheme = 'dark'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[params.homeInfoParams]
+  Title = "👋 Bienvenue sur OpsLog"
+  Content = "DevOps au quotidien. Infra, CI/CD, sécurité, et stories de terminal."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/Mounik"
+
+[menu]
+[[menu.main]]
+  identifier = 'archives'
+  name = 'Archives'
+  url = '/archives/'
+  weight = 10
+[[menu.main]]
+  identifier = 'tags'
+  name = 'Tags'
+  url = '/tags/'
+  weight = 20
+
+[markup]
+  [markup.highlight]
+    style = 'dracula'
+    lineNos = true
